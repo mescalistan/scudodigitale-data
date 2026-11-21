@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scudo Digitale – Informativa sulla privacy</title>
+<style>
+  :root { --ink: #111; --muted: #444; --accent: #1b7a43; --bg: #fff; }
+  @media (prefers-color-scheme: dark) { :root { --ink: #eee; --muted: #bbb; --accent: #6fd39a; --bg: #121212; } }
+  body { margin: 0; padding: 24px 16px; background: var(--bg); color: var(--ink);
+         font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; }
+  h1 { color: var(--accent); line-height: 1.2; }
+  h2 { margin-top: 2em; }
+  p, li { color: var(--ink); }
+  .muted { color: var(--muted); font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+<h1>Scudo Digitale – Informativa sulla privacy</h1>
+<p class="muted">Ultimo aggiornamento: novembre 2026</p>
+
+<p>Scudo Digitale è un'app che protegge una persona da siti truffa e raggiri online. Può essere configurata da un
+familiare con il consenso informato della persona protetta (modalità Tutore) oppure dalla persona stessa sul
+proprio telefono (modalità Personale, senza PIN né avvisi a terzi). Lo sviluppatore <strong>non
+gestisce alcun server</strong> e <strong>non riceve alcun dato</strong> dall'app.</p>
+
+<h2>Dati trattati sul dispositivo</h2>
+<ul>
+  <li><strong>Richieste DNS</strong>: la VPN locale esamina il nome dei siti richiesti per bloccare quelli
+    pericolosi. Le richieste consentite vengono inoltrate a un resolver DNS pubblico (Cloudflare 1.1.1.1 o
+    Google 8.8.8.8), come farebbe normalmente il telefono. Il traffico non viene instradato, registrato né
+    decifrato. La normale navigazione non viene salvata.</li>
+  <li><strong>Servizio di accessibilità</strong>: legge l'indirizzo nella barra dei browser, riconosce
+    l'apertura di app di controllo remoto e le schermate delle Impostazioni da cui si può disattivare la
+    protezione. Non legge il contenuto delle pagine web, la rubrica o le foto. I testi letti sono
+    analizzati in memoria e scartati subito.</li>
+  <li><strong>SMS, email, messaggi e social</strong>: solo nelle app di SMS, email, chat e social (es. Messaggi,
+    Gmail, Outlook, WhatsApp, Telegram, Messenger, Instagram, Facebook) il servizio di accessibilità esamina il testo
+    visibile e le notifiche in arrivo per riconoscere link truffa e messaggi di phishing, mostrare un avviso, bloccare
+    il tocco sul link e nascondere le conversazioni truffa nell'elenco. L'analisi avviene solo sul telefono; il testo
+    dei messaggi non viene mai salvato né inviato.</li>
+  <li><strong>Rubrica (facoltativa)</strong>: se la persona concede il permesso, nomi e numeri dei contatti sono
+    letti solo in memoria per capire se un messaggio truffa arriva dall'account di un conoscente (probabilmente
+    violato). Non vengono salvati né inviati. Senza permesso l'app funziona ugualmente.</li>
+  <li><strong>"Avvisa il contatto"</strong>: solo quando la persona tocca questo pulsante, l'app cattura la schermata
+    della chat e la apre nella condivisione di Android con un messaggio precompilato. È la persona a scegliere se e a
+    chi inviarla; l'immagine temporanea viene cancellata alla condivisione successiva o al riavvio del servizio.</li>
+  <li><strong>Registro di sicurezza</strong>: conservato solo sul telefono e visibile solo con il PIN del
+    familiare. Contiene i siti pericolosi bloccati e gli eventi di manomissione (massimo 5.000 righe).</li>
+  <li><strong>PIN e contatto del familiare</strong>: il PIN è salvato solo come impronta crittografica; nome
+    e numero del familiare sono cifrati sul dispositivo.</li>
+</ul>
+
+<h2>Dati trasmessi</h2>
+<ul>
+  <li><strong>Liste anti-truffa</strong>: l'app scarica periodicamente liste pubbliche (HaGeZi,
+    OpenPhish, Phishing Army, Block List Project, CONSOB, CERT-AgID). Le richieste non contengono
+    dati personali.</li>
+  <li><strong>Avvisi al familiare (facoltativi)</strong>: se il familiare li configura, l'app invia al suo bot
+    Telegram o al suo webhook <em>solo</em> il nome dei siti pericolosi bloccati, il tipo di messaggio truffa con il dominio rilevato
+    (mai il testo del messaggio), gli eventi di manomissione e
+    un report giornaliero di stato. Questi messaggi sono soggetti alle informative di Telegram o del servizio
+    scelto dal familiare.</li>
+</ul>
+
+<h2>Nessuna condivisione con terze parti</h2>
+<p>Nessun dato viene venduto, condiviso con inserzionisti o usato per profilazione. L'app non contiene
+librerie pubblicitarie né di analisi.</p>
+
+<h2>Conservazione e cancellazione</h2>
+<p>Tutti i dati restano sul telefono. Il familiare può svuotare il registro dall'area riservata.
+Disinstallando l'app (operazione protetta da PIN) tutti i dati vengono cancellati. Il backup automatico su
+cloud è disattivato.</p>
+
+<h2>Contatti</h2>
+<p>Per domande sull'app è possibile aprire una segnalazione nel repository pubblico del progetto.</p>
+</main>
+</body>
+</html>

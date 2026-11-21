@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "updated": "2026-11-21",
+  "note": "Numeri di assistenza e blocco carte pubblicati sui siti ufficiali. Solo cifre, senza +39. 'prefixes': numerazioni da cui l'ente dichiara di chiamare.",
+  "brands": [
+    {
+      "name": "Nexi",
+      "numbers": ["800151616", "0234980020", "02345444", "800556677", "800776644"],
+      "prefixes": ["023488"],
+      "sources": ["https://www.nexi.it/it/assistenza-clienti/carte/contattaci-carte", "https://www.nexi.it/it/supporto-carte/phishing"]
+    },
+    {
+      "name": "Poste Italiane",
+      "numbers": ["800003322", "0645263322", "800160000"],
+      "sources": ["https://www.poste.it/assistenza/faq-conti-e-carte", "https://www.poste.it/assistenza/faq-assistente-digitale"]
+    },
+    {
+      "name": "Intesa Sanpaolo",
+      "numbers": ["800303303", "0118019200", "800444223", "0287109001", "800151616", "0234980020"],
+      "sources": ["https://www.intesasanpaolo.com/it/persone-e-famiglie/bisogni/tempo-libero/kit-del-viaggiatore/conoscere-i-numeri-utili.html", "https://www.intesasanpaolo.com/it/common/footer/emergenza-carte.html"]
+    },
+    {
+      "name": "UniCredit",
+      "numbers": ["800078777", "0458064686", "800575757", "0233408973", "800290915", "0286814900", "800044662", "0289664912", "800660691", "0233485067"],
+      "sources": ["https://www.unicredit.it/it/contatti-e-agenzie/blocco-carte.html"]
+    },
+    {
+      "name": "Banco BPM",
+      "numbers": ["800024024", "800822056", "0260843768", "800991256", "0299297701", "0299297700", "800207167", "0432744106", "800151616", "0234980020"],
+      "sources": ["https://www.bancobpm.it/magazine/privati/tutela-la-tua-sicurezza/bloccare-la-carta-di-debito-bancomat-quando-e-come-procedere/"]
+    },
+    {
+      "name": "BPER Banca",
+      "numbers": ["0594242", "800227788", "0592919622", "800151616", "0234980020"],
+      "sources": ["https://www.bper.it/footer/numeri-utili", "https://www.bper.it/faq/carte"]
+    },
+    {
+      "name": "Fineco",
+      "numbers": ["800525252", "0228992899", "800929292"],
+      "sources": ["https://help.finecobank.com/it/conto-e-carte/le-carte-fineco.html"]
+    },
+    {
+      "name": "ING",
+      "numbers": ["800822056", "0260843768", "800717273", "029996789"],
+      "sources": ["https://www.ing.it/faq/altre-informazioni/blocco-e-contestazione-carte.html", "https://www.ing.it/lp/disconoscimento.html"]
+    },
+    {
+      "name": "Banca Mediolanum",
+      "numbers": ["800107107", "800822056", "0260843768", "800151616"],
+      "sources": ["https://www.bancamediolanum.it/informazioni-al-cliente/blocco-strumenti-di-pagamento"]
+    },
+    {
+      "name": "Monte dei Paschi",
+      "numbers": ["800414141", "800992100", "0234980176", "0234980130", "0234980172"],
+      "sources": ["https://www.mps.it/contatti/assistenza-clienti.html"]
+    },
+    {
+      "name": "Crédit Agricole",
+      "numbers": ["800771100", "0652799440", "800151616", "800822056", "0260843768", "02345444"],
+      "sources": ["https://www.credit-agricole.it/contatti", "https://www.credit-agricole.it/faq/carte-richieste-furti-e-smarrimenti"]
+    },
+    {
+      "name": "PayPal",
+      "numbers": ["0689386461"],
+      "sources": ["https://www.paypal.com/it/legalhub/paypal/useragreement-full"]
+    },
+    {
+      "name": "INPS",
+      "numbers": ["803164", "06164164", "800434320"],
+      "sources": ["https://www.inps.it/it/it/sedi-e-contatti/contatti/contact-center-multicanale.html"]
+    },
+    {
+      "name": "Agenzia delle Entrate",
+      "numbers": ["800909696", "0696668907"],
+      "sources": ["https://www.agenziaentrate.gov.it/portale/all-agenzia-delle-entrate-su-appuntamento"]
+    }
+  ]
+}
