@@ -1,78 +1,386 @@
 {
   "version": 1,
   "updated": "2026-11-21",
-  "note": "Numeri di assistenza e blocco carte pubblicati sui siti ufficiali. Solo cifre, senza +39. 'prefixes': numerazioni da cui l'ente dichiara di chiamare.",
+  "note": "Numeri di assistenza e blocco carte pubblicati sui siti ufficiali. Solo cifre, senza +39. 'official_display_number': numero principale da mostrare all'utente. 'prefixes': numerazioni da cui l'ente dichiara di chiamare. 'phone_support': false se l'ente non ha assistenza telefonica con operatore.",
   "brands": [
     {
       "name": "Nexi",
-      "numbers": ["800151616", "0234980020", "02345444", "800556677", "800776644"],
-      "prefixes": ["023488"],
-      "sources": ["https://www.nexi.it/it/assistenza-clienti/carte/contattaci-carte", "https://www.nexi.it/it/supporto-carte/phishing"]
+      "numbers": [
+        "800151616",
+        "0234980020",
+        "02345444",
+        "800556677",
+        "800776644"
+      ],
+      "prefixes": [
+        "023488"
+      ],
+      "sources": [
+        "https://www.nexi.it/it/assistenza-clienti/carte/contattaci-carte",
+        "https://www.nexi.it/it/supporto-carte/phishing"
+      ],
+      "official_display_number": "800 15 16 16"
     },
     {
       "name": "Poste Italiane",
-      "numbers": ["800003322", "0645263322", "800160000"],
-      "sources": ["https://www.poste.it/assistenza/faq-conti-e-carte", "https://www.poste.it/assistenza/faq-assistente-digitale"]
+      "numbers": [
+        "800003322",
+        "0645263322",
+        "800160000"
+      ],
+      "sources": [
+        "https://www.poste.it/assistenza/faq-conti-e-carte",
+        "https://www.poste.it/assistenza/faq-assistente-digitale"
+      ],
+      "official_display_number": "800 00 33 22"
     },
     {
       "name": "Intesa Sanpaolo",
-      "numbers": ["800303303", "0118019200", "800444223", "0287109001", "800151616", "0234980020"],
-      "sources": ["https://www.intesasanpaolo.com/it/persone-e-famiglie/bisogni/tempo-libero/kit-del-viaggiatore/conoscere-i-numeri-utili.html", "https://www.intesasanpaolo.com/it/common/footer/emergenza-carte.html"]
+      "numbers": [
+        "800303303",
+        "0118019200",
+        "800444223",
+        "0287109001",
+        "800151616",
+        "0234980020"
+      ],
+      "sources": [
+        "https://www.intesasanpaolo.com/it/persone-e-famiglie/bisogni/tempo-libero/kit-del-viaggiatore/conoscere-i-numeri-utili.html",
+        "https://www.intesasanpaolo.com/it/common/footer/emergenza-carte.html"
+      ],
+      "official_display_number": "800 303 303"
     },
     {
       "name": "UniCredit",
-      "numbers": ["800078777", "0458064686", "800575757", "0233408973", "800290915", "0286814900", "800044662", "0289664912", "800660691", "0233485067"],
-      "sources": ["https://www.unicredit.it/it/contatti-e-agenzie/blocco-carte.html"]
+      "numbers": [
+        "800078777",
+        "0458064686",
+        "800575757",
+        "0233408973",
+        "800290915",
+        "0286814900",
+        "800044662",
+        "0289664912",
+        "800660691",
+        "0233485067"
+      ],
+      "sources": [
+        "https://www.unicredit.it/it/contatti-e-agenzie/blocco-carte.html"
+      ],
+      "official_display_number": "800 57 57 57"
     },
     {
       "name": "Banco BPM",
-      "numbers": ["800024024", "800822056", "0260843768", "800991256", "0299297701", "0299297700", "800207167", "0432744106", "800151616", "0234980020"],
-      "sources": ["https://www.bancobpm.it/magazine/privati/tutela-la-tua-sicurezza/bloccare-la-carta-di-debito-bancomat-quando-e-come-procedere/"]
+      "numbers": [
+        "800024024",
+        "800822056",
+        "0260843768",
+        "800991256",
+        "0299297701",
+        "0299297700",
+        "800207167",
+        "0432744106",
+        "800151616",
+        "0234980020"
+      ],
+      "sources": [
+        "https://www.bancobpm.it/magazine/privati/tutela-la-tua-sicurezza/bloccare-la-carta-di-debito-bancomat-quando-e-come-procedere/"
+      ],
+      "official_display_number": "800 024 024"
     },
     {
       "name": "BPER Banca",
-      "numbers": ["0594242", "800227788", "0592919622", "800151616", "0234980020"],
-      "sources": ["https://www.bper.it/footer/numeri-utili", "https://www.bper.it/faq/carte"]
+      "numbers": [
+        "0594242",
+        "800227788",
+        "0592919622",
+        "800151616",
+        "0234980020"
+      ],
+      "sources": [
+        "https://www.bper.it/footer/numeri-utili",
+        "https://www.bper.it/faq/carte"
+      ],
+      "official_display_number": "059 42 42"
     },
     {
       "name": "Fineco",
-      "numbers": ["800525252", "0228992899", "800929292"],
-      "sources": ["https://help.finecobank.com/it/conto-e-carte/le-carte-fineco.html"]
+      "numbers": [
+        "800525252",
+        "0228992899",
+        "800929292"
+      ],
+      "sources": [
+        "https://help.finecobank.com/it/conto-e-carte/le-carte-fineco.html"
+      ],
+      "official_display_number": "800 52 52 52"
     },
     {
       "name": "ING",
-      "numbers": ["800822056", "0260843768", "800717273", "029996789"],
-      "sources": ["https://www.ing.it/faq/altre-informazioni/blocco-e-contestazione-carte.html", "https://www.ing.it/lp/disconoscimento.html"]
+      "numbers": [
+        "800822056",
+        "0260843768",
+        "800717273",
+        "029996789"
+      ],
+      "sources": [
+        "https://www.ing.it/faq/altre-informazioni/blocco-e-contestazione-carte.html",
+        "https://www.ing.it/lp/disconoscimento.html"
+      ],
+      "official_display_number": "800 71 72 73"
     },
     {
       "name": "Banca Mediolanum",
-      "numbers": ["800107107", "800822056", "0260843768", "800151616"],
-      "sources": ["https://www.bancamediolanum.it/informazioni-al-cliente/blocco-strumenti-di-pagamento"]
+      "numbers": [
+        "800107107",
+        "800822056",
+        "0260843768",
+        "800151616"
+      ],
+      "sources": [
+        "https://www.bancamediolanum.it/informazioni-al-cliente/blocco-strumenti-di-pagamento"
+      ],
+      "official_display_number": "800 107 107"
     },
     {
       "name": "Monte dei Paschi",
-      "numbers": ["800414141", "800992100", "0234980176", "0234980130", "0234980172"],
-      "sources": ["https://www.mps.it/contatti/assistenza-clienti.html"]
+      "numbers": [
+        "800414141",
+        "800992100",
+        "0234980176",
+        "0234980130",
+        "0234980172"
+      ],
+      "sources": [
+        "https://www.mps.it/contatti/assistenza-clienti.html"
+      ],
+      "official_display_number": "800 41 41 41"
     },
     {
       "name": "Crédit Agricole",
-      "numbers": ["800771100", "0652799440", "800151616", "800822056", "0260843768", "02345444"],
-      "sources": ["https://www.credit-agricole.it/contatti", "https://www.credit-agricole.it/faq/carte-richieste-furti-e-smarrimenti"]
+      "numbers": [
+        "800771100",
+        "0652799440",
+        "800151616",
+        "800822056",
+        "0260843768",
+        "02345444"
+      ],
+      "sources": [
+        "https://www.credit-agricole.it/contatti",
+        "https://www.credit-agricole.it/faq/carte-richieste-furti-e-smarrimenti"
+      ],
+      "official_display_number": "800 771 100"
     },
     {
       "name": "PayPal",
-      "numbers": ["0689386461"],
-      "sources": ["https://www.paypal.com/it/legalhub/paypal/useragreement-full"]
+      "numbers": [
+        "0689386461"
+      ],
+      "sources": [
+        "https://www.paypal.com/it/legalhub/paypal/useragreement-full"
+      ],
+      "official_display_number": "06 8938 6461"
     },
     {
       "name": "INPS",
-      "numbers": ["803164", "06164164", "800434320"],
-      "sources": ["https://www.inps.it/it/it/sedi-e-contatti/contatti/contact-center-multicanale.html"]
+      "numbers": [
+        "803164",
+        "06164164",
+        "800434320"
+      ],
+      "sources": [
+        "https://www.inps.it/it/it/sedi-e-contatti/contatti/contact-center-multicanale.html"
+      ],
+      "official_display_number": "803 164"
     },
     {
       "name": "Agenzia delle Entrate",
-      "numbers": ["800909696", "0696668907"],
-      "sources": ["https://www.agenziaentrate.gov.it/portale/all-agenzia-delle-entrate-su-appuntamento"]
+      "numbers": [
+        "800909696",
+        "0696668907"
+      ],
+      "sources": [
+        "https://www.agenziaentrate.gov.it/portale/all-agenzia-delle-entrate-su-appuntamento"
+      ],
+      "official_display_number": "800 90 96 96"
+    },
+    {
+      "name": "Credem",
+      "official_display_number": "800 27 33 36",
+      "numbers": [
+        "800273336",
+        "800822056",
+        "0260843768",
+        "800258852",
+        "0522583583",
+        "800151616",
+        "0234980020"
+      ],
+      "sources": [
+        "https://www.credem.it/content/credem/it/contatti/chiamaci.html"
+      ]
+    },
+    {
+      "name": "Banca Sella",
+      "official_display_number": "800 66 33 99",
+      "numbers": [
+        "800663399",
+        "0152434614",
+        "800142142",
+        "800328328"
+      ],
+      "sources": [
+        "https://www.sella.it/banca-on-line/contatti-e-assistenza"
+      ]
+    },
+    {
+      "name": "Mediobanca Premier",
+      "official_display_number": "800 10 10 30",
+      "numbers": [
+        "800101030",
+        "0232004141",
+        "800151616",
+        "0234980020"
+      ],
+      "sources": [
+        "https://www.mediobancapremier.com/public/footer/accesso-e-sicurezza/blocco-carte"
+      ]
+    },
+    {
+      "name": "Widiba",
+      "official_display_number": "800 22 55 77",
+      "numbers": [
+        "800225577",
+        "0577381900",
+        "800822056",
+        "0260843768",
+        "800992100",
+        "0234980176",
+        "800955981"
+      ],
+      "sources": [
+        "https://www.widiba.it/banca-online/siamo-a-tua-disposizione/contatti-e-assistenza"
+      ]
+    },
+    {
+      "name": "Webank",
+      "official_display_number": "800 060 070",
+      "numbers": [
+        "800060070",
+        "800822056",
+        "0260843768",
+        "800991256"
+      ],
+      "sources": [
+        "https://www.webank.it/webankpub/wbresp/dialoga_con_webank.do"
+      ]
+    },
+    {
+      "name": "Banca Popolare di Sondrio",
+      "official_display_number": "800 822 056",
+      "numbers": [
+        "800822056",
+        "0260843768",
+        "800151616",
+        "0234980020",
+        "800239889",
+        "0252814072",
+        "0691619372"
+      ],
+      "sources": [
+        "https://www.popso.it/contatti/blocco-carte"
+      ]
+    },
+    {
+      "name": "Banca Generali",
+      "official_display_number": "800 133 133",
+      "numbers": [
+        "800133133",
+        "0514994133",
+        "800151616",
+        "800556677",
+        "800776644",
+        "0234980213",
+        "0234980020"
+      ],
+      "sources": [
+        "https://www.bancagenerali.it/site/home/sicurezza/assistenza-carte.html"
+      ]
+    },
+    {
+      "name": "Hype",
+      "official_display_number": "02 8281 6389",
+      "numbers": [
+        "0282816389",
+        "0282816380"
+      ],
+      "sources": [
+        "https://support.hype.it/privati/contacts"
+      ]
+    },
+    {
+      "name": "Findomestic",
+      "official_display_number": "800 254 762",
+      "numbers": [
+        "800254762",
+        "0553232242",
+        "800866116",
+        "0553374830",
+        "800311311"
+      ],
+      "sources": [
+        "https://www.findomestic.it/contatti"
+      ]
+    },
+    {
+      "name": "Compass",
+      "official_display_number": "800 77 44 33",
+      "numbers": [
+        "800774433",
+        "800822056",
+        "0260843768",
+        "800216740",
+        "0248244448",
+        "0248244412"
+      ],
+      "sources": [
+        "https://www.compass.it/numeri-utili-compass.html"
+      ]
+    },
+    {
+      "name": "American Express",
+      "official_display_number": "06 72 900 347",
+      "numbers": [
+        "0672900347",
+        "0672282",
+        "0672280980"
+      ],
+      "sources": [
+        "https://www.americanexpress.com/it/important-numbers.html"
+      ]
+    },
+    {
+      "name": "BBVA",
+      "official_display_number": "800 17 26 39",
+      "numbers": [
+        "800172639",
+        "0230301081"
+      ],
+      "sources": [
+        "https://www.bbva.it/general/servizio-clienti.html"
+      ]
+    },
+    {
+      "name": "Revolut",
+      "phone_support": false,
+      "numbers": [
+        "+37052143608"
+      ],
+      "sources": [
+        "https://www.revolut.com/it-IT/contact-us/",
+        "https://help.revolut.com/en-IT/help/profile-and-plan/how-can-i-contact-revolut-support/"
+      ]
     }
   ]
 }
