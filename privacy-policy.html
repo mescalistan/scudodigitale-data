@@ -34,8 +34,10 @@ gestisce alcun server</strong> e <strong>non riceve alcun dato</strong> dall'app
     decifrato. La normale navigazione non viene salvata.</li>
   <li><strong>Servizio di accessibilità</strong>: legge l'indirizzo nella barra dei browser, riconosce
     l'apertura di app di controllo remoto e le schermate delle Impostazioni da cui si può disattivare la
-    protezione. Non legge il contenuto delle pagine web, la rubrica o le foto. I testi letti sono
-    analizzati in memoria e scartati subito.</li>
+    protezione. Sui siti non verificati esamina il testo visibile della pagina solo per capire se è un
+    negozio online o una pagina di pagamento (es. "Aggiungi al carrello", "Numero carta", "Paga ora") e per
+    riconoscere sconti anomali: dei campi legge solo le etichette, mai quello che la persona scrive. Non legge
+    la rubrica o le foto. I testi letti sono analizzati in memoria e scartati subito.</li>
   <li><strong>SMS, email, messaggi e social</strong>: solo nelle app di SMS, email, chat e social (es. Messaggi,
     Gmail, Outlook, WhatsApp, Telegram, Messenger, Instagram, Facebook) il servizio di accessibilità esamina il testo
     visibile e le notifiche in arrivo per riconoscere link truffa e messaggi di phishing, mostrare un avviso, bloccare
@@ -58,6 +60,14 @@ gestisce alcun server</strong> e <strong>non riceve alcun dato</strong> dall'app
   <li><strong>Liste anti-truffa</strong>: l'app scarica periodicamente liste pubbliche (HaGeZi,
     OpenPhish, Phishing Army, Block List Project, CONSOB, CERT-AgID) e la rubrica pubblica dei numeri ufficiali di banche ed enti. Le richieste non contengono
     dati personali.</li>
+  <li><strong>Verifica dei negozi online (disattivabile)</strong>: solo quando si apre un negozio online non presente
+    tra i siti noti, l'app può interrogare il servizio pubblico <a href="https://rdap.org">rdap.org</a> per conoscere i
+    dati pubblici di registrazione del dominio (data di creazione e Paese). Al servizio viene
+    inviato <strong>esclusivamente il nome di dominio</strong> del sito (es. <code>negozio.shop</code>): mai l'indirizzo
+    completo della pagina, la cronologia di navigazione, dati personali o identificativi del telefono. I risultati
+    restano sul telefono per 24 ore e poi vengono cancellati. La verifica si può spegnere in qualsiasi momento
+    dall'interruttore "Verifica online dei negozi": in quel caso l'app funziona al 100% offline e usa solo i segnali
+    letti sul telefono. Queste richieste sono soggette all'informativa di rdap.org e dei registri dei domini.</li>
   <li><strong>Avvisi al familiare (facoltativi)</strong>: se il familiare li configura, l'app invia al suo bot
     Telegram o al suo webhook <em>solo</em> il nome dei siti pericolosi bloccati, il tipo di messaggio truffa con il dominio rilevato
     (mai il testo del messaggio), gli eventi di manomissione e
